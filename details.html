@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- title of the document -->
+        <title>villa</title>
+        <!-- external css link -->
+        <link rel="stylesheet" href="./dist/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+        <!-- external fonts -->
+        <link rel="stylesheet" href="./src/icons/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- sub-header section start -->
+        <section class="border-b-2 hidden lg:block">
+            <div class="container">
+                <div class="sub-header flex justify-between items-center">
+                    <div class="sub-header-left">
+                        <ul class="flex gap-5 justify-between items-center">
+                            <li class="text-xl text-tgray-50"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                            <li class="text-tgray-200 text-sm">info@company.com</li>
+                            <li class="text-tgray-200">|</li>
+                            <li class="text-xl text-tgray-50"><i class="fa fa-map" aria-hidden="true"></i></li>
+                            <li class="text-tgray-200 text-sm">Sunny Isles Beach, FL 33160</li>
+                        </ul>
+                    </div>
+                    <div class="sub-header-right">
+                        <ul class="flex justify-between items-center gap-2.5">
+                            <li class="text-sm bg-tgray-300 px-3 py-2 rounded-full text-white cursor-pointer hover:bg-tgray-50"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                            <li class="text-sm bg-tgray-300 px-3 py-2 rounded-full text-white cursor-pointer hover:bg-tgray-50"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                            <li class="text-sm bg-tgray-300 px-3 py-2 rounded-full text-white cursor-pointer hover:bg-tgray-50"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                            <li class="text-sm bg-tgray-300 px-3 py-2 rounded-full text-white cursor-pointer hover:bg-tgray-50"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sub-header section end -->
+
+        <!-- main header section start -->
+        <header class="shadow-md">
+            <div class="container">
+                <nav class="flex justify-between items-center">
+                    <div class="nav-logo text-tgray-100 text-3xl font-bold uppercase tracking-widest">
+                        <h1>villa</h1>
+                    </div>
+                    <div class="nav-content hidden lg:block">
+                        <ul class="flex justify-between items-center gap-10">
+                            <li class="text-sm font-medium text-tgray-100 hover:text-tgray-50"><a href="./index.html">Home</a></li>
+                            <li class="text-sm font-medium text-tgray-100 hover:text-tgray-50"><a href="./Properties.html">Properties</a></li>
+                            <li class="text-sm font-medium text-tgray-50"><a href="./details.html">Property Details</a></li>
+                            <li class="text-sm font-medium text-tgray-100 hover:text-tgray-50"><a href="./contact.html">Contact Us</a></li>
+                            <li class="pr-5 pl-16 h-12 leading-10 text-sm font-medium text-white bg-black rounded-3xl relative">
+                                <a href="./contact.html">Schedule a visit</a><i class="fa fa-calendar-o absolute -left-0.5 top-0 block h-12 w-12 text-center bg-tgray-50 rounded-full leading-10" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- mobile section start -->
+                    <div class="nav-mobile block lg:hidden">
+                        <div class="text-xl block lg:hidden cursor-pointer" id="ham">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="hidden text-xl cursor-pointer" id="close">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <ul class="fixed z-20 w-4/6 top-20 right-0 bg-tgray-100 text-white hidden" id="mobile">
+                            <li class="p-5 hover:bg-tgray-50"><a href="./index.html">Home</a></li>
+                            <li class="p-5 hover:bg-tgray-50"><a href="./Properties.html">Properties</a></li>
+                            <li class="p-5 hover:bg-tgray-50"><a href="./details.html">Property Details</a></li>
+                            <li class="p-5 hover:bg-tgray-50"><a href="./contact.html">Contact Us</a></li>
+                            <li class="p-5 hover:bg-tgray-50"><a href="./contact.html">Schedule a visit</a></li>
+                        </ul>
+                    </div>
+                    <!-- mobile section end -->
+                </nav>
+            </div>
+        </header>
+        <!-- main header section end -->
+
+        <!-- banner section start -->
+
+        <section class="side-banner" style="background: url(./src/image/page-heading-bg.jpg);">
+            <div class="container">
+                <div class="px-5 py-2.5 bg-white inline-block mb-10">
+                    <a href="./index.html">Home</a>
+                    <span>/</span>
+                    <span>SINGLE PROPERTY</span>
+                </div>
+                <h2 class="text-5xl uppercase text-white font-extrabold">SINGLE PROPERTY</h2>
+            </div>
+        </section>
+
+        <!-- banner section end -->
+
+        <!-- Accordin section start -->
+        <section class="accordin py-10 lg:py-20">
+            <div class="container">
+                <div class="flex flex-wrap justify-between">
+                    <div class="px-3 w-full lg:w-8/12 my-10 lg:my-0">
+                        <img src="./src/image/property-01.jpg" class="w-full rounded-2xl" alt="" />
+                        <span class="px-3 py-1.5 bg-tgray-600 mt-10 inline-block rounded-lg text-sm font-semibold">Apparment</span>
+                        <div>
+                            <h3 class="text-tgray-100 font-bold text-2xl py-10 border-b">24 New Street Miami, OR 24560</h3>
+                            <p class="text-sm py-10">
+                                Get the <b>best villa agency</b> HTML CSS Bootstrap Template for your company website. TemplateMo provides you the <span class="text-blue-600">best free CSS templates</span> in the world. Please tell your
+                                friends about it. Thank you. Cloud bread kogi bitters pitchfork shoreditch tumblr yr succulents single-origin coffee schlitz enamel pin you probably haven't heard of them ugh hella.
+                            </p>
+                            <p class="text-sm">
+                                When you look for free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Digital Marketing, TemplateMo Corporate Layouts, etc. Master cleanse +1
+                                intelligentsia swag post-ironic, slow-carb chambray knausgaard PBR&B DSA poutine neutra cardigan hoodie pop-up.
+                            </p>
+                        </div>
+                        <div class="bg-tgray-500 rounded-2xl px-4 mt-16">
+                            <div class="border-b-2 py-4">
+                                <button class="accordion w-full text-tgray-100 text-left">Best useful links ?</button>
+                                <div class="panel hidden overflow-hidden text-tgray-100 text-sm py-3">
+                                    <p>
+                                        Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <span class="text-blue-600">best free CSS templates</span> in the world. Please tell your
+                                        friends about it.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="border-b-2 py-4">
+                                <button class="accordion w-full text-tgray-100 text-left">How does this work ?</button>
+                                <div class="panel hidden overflow-hidden text-tgray-100 text-sm py-3">
+                                    <p>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+
+                            <div class="py-4">
+                                <button class="accordion w-full text-tgray-100 text-left">Why is Villa agency the best ?</button>
+                                <div class="panel hidden overflow-hidden text-tgray-100 text-sm py-3">
+                                    <p>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-3/12 rounded-2xl shadow-2xl my-10 lg:my-0 h-fit">
+                        <div class="p-8">
+                            <div class="flex gap-5 items-center pb-7 border-b">
+                                <div>
+                                    <img src="./src/image/info-icon-01.png" alt="" />
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl text-tgray-100 font-semibold">250 m2</h3>
+                                    <span class="text-tgray-300 text-sm">Total Flat Space</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 items-center py-7 border-b">
+                                <div>
+                                    <img src="./src/image/info-icon-02.png" alt="" />
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl text-tgray-100 font-semibold">Contract</h3>
+                                    <span class="text-tgray-300 text-sm">Contract Ready</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 items-center py-7 border-b">
+                                <div>
+                                    <img src="./src/image/info-icon-03.png" alt="" />
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl text-tgray-100 font-semibold">Payment</h3>
+                                    <span class="text-tgray-300 text-sm">Payment Process</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 items-center py-7 border-b">
+                                <div>
+                                    <img src="./src/image/info-icon-04.png" alt="" />
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl text-tgray-100 font-semibold">Safety</h3>
+                                    <span class="text-tgray-300 text-sm">24/7 Under Control</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 items-center py-7">
+                                <div>
+                                    <img src="./src/image/info-icon-03.png" alt="" />
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl text-tgray-100 font-semibold">Payment</h3>
+                                    <span class="text-tgray-300 text-sm">Payment Process</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Accordin section end -->
+
+        <!-- best deal section start -->
+        <section class="deal py-10 lg:py-20 bg-tgray-500">
+            <div class="container">
+                <div class="flex flex-wrap lg:flex-nowrap justify-between">
+                    <div class="featured px-5 text-left">
+                        <h6 class="text-tgray-400 font-bold text-base tracking-wider uppercase">| best deal</h6>
+                        <h2 class="text-tgray-100 mt-5 font-bold" style="line-height: 1.2; font-size: 40px;">Find Your Best Deal <span class="inline lg:block">Right Now!</span></h2>
+                    </div>
+                    <div class="flex flex-wrap justify-center items-center gap-10 mt-16">
+                        <a href="javascript:;" class="text-lg h-12 bg-tgray-50 text-white px-4 rounded-md" style="line-height: 48px;">Apartment</a>
+                        <a href="javascript:;" class="text-lg h-12 bg-tgray-100 text-white px-4 rounded-md hover:bg-tgray-50" style="line-height: 48px;">Villa House</a>
+                        <a href="javascript:;" class="text-lg h-12 bg-tgray-100 text-white px-4 rounded-md hover:bg-tgray-50" style="line-height: 48px;">Penthouse</a>
+                    </div>
+                </div>
+                <div class="flex flex-wrap my-10 justify-between">
+                    <div class="w-full lg:w-3/12 rounded-2xl shadow-2xl my-10 lg:my-0">
+                        <div class="p-8">
+                            <div class="pb-3 border-b">
+                                <span class="text-tgray-300 text-sm">Total Flat Space</span>
+                                <h3 class="text-2xl text-tgray-100 font-semibold">185 m2</h3>
+                            </div>
+                            <div class="py-3.5 border-b">
+                                <span class="text-tgray-300 text-sm">Floor number</span>
+                                <h3 class="text-2xl text-tgray-100 font-semibold">26th</h3>
+                            </div>
+                            <div class="py-3.5 border-b">
+                                <span class="text-tgray-300 text-sm">Number of rooms</span>
+                                <h3 class="text-2xl text-tgray-100 font-semibold">4</h3>
+                            </div>
+                            <div class="py-3.5 border-b">
+                                <span class="text-tgray-300 text-sm">Parking Available</span>
+                                <h3 class="text-2xl text-tgray-100 font-semibold">Yes</h3>
+                            </div>
+                            <div class="py-3.5 border-b">
+                                <span class="text-tgray-300 text-sm">Parking Available</span>
+                                <h3 class="text-2xl text-tgray-100 font-semibold">Bank</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 flex w-full lg:w-5/12 my-10 lg:my-0">
+                        <img src="./src/image/deal-01.jpg" class="w-full" alt="" />
+                    </div>
+                    <div class="w-full lg:w-3/12 px-3 my-10 lg:my-0">
+                        <div class="deal-description">
+                            <h4 class="text-tgray-100 font-semibold mb-7">Extra Info About Property</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</p>
+                            <p>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                            <li class="pr-5 pl-16 h-12 leading-10 text-sm font-medium text-white bg-black rounded-3xl relative inline-block">
+                                <a href="javascript:;">Schedule a visit</a><i class="fa fa-calendar-o absolute -left-0.5 top-0 block h-12 w-12 text-center bg-tgray-50 rounded-full leading-10" aria-hidden="true"></i>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- best deal section end -->
+
+        <!-- footer section start -->
+        <footer>
+            <div class="py-10 text-center text-white bg-tgray-100">
+                <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: <span class="text-tgray-400 font-bold">Harivirat18</span></p>
+            </div>
+        </footer>
+        <!-- footer section end -->
+
+        <!-- external js link -->
+        <script src="./src/js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    </body>
+</html>

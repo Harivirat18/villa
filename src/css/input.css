@@ -1,0 +1,155 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply mx-auto py-5 px-5 lg:px-10;
+}
+.leading-10 {
+    line-height: 48px !important;
+}
+
+.banner {
+    background-position: center !important;
+    background-size: cover !important;
+    height: 100vh;
+    display: flex !important;
+    padding-left: 250px;
+    align-items: center;
+    background-repeat: no-repeat !important;
+}
+.banner-content h2 {
+    max-width: 350px;
+    line-height: 1.2;
+}
+/* .slick-next {
+    right: 20px !important;
+    display: none !important;
+}
+.slick-prev {
+    left: 20px !important;
+    z-index: 10;
+} */
+.next-slick{
+    display: none !important;
+}
+/* .slick-next::before {
+    font-size: 35px !important;
+}
+.slick-prev::before {
+    font-size: 35px !important;
+} */
+.slick-dots {
+    bottom: 75px !important;
+    right: 250px !important;
+}
+.slick-dots li.slick-active button:before {
+    color: rgb(243 85 37) !important;
+}
+.slick-dots li button::before {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 12px !important;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 992px) {
+    /* .slick-next {
+        display: block !important;
+    } */
+    .next-slick{
+        display: block !important;
+    }
+}
+@media (max-width: 991px) {
+    .banner {
+        padding: 0 100px;
+    }
+    /* .slick-prev {
+        z-index: -1;
+    } */
+    .slick-dots {
+        right: 0 !important;
+    }
+    .banner-content h2 {
+        max-width: 500px;
+    }
+}
+@media (max-width: 767px) {
+    .banner {
+        padding: 0 30px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+    }
+}
+
+.video {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0 300px 0;
+}
+
+.play {
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    margin-top: -220px;
+    border-radius: 20px;
+}
+
+.play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.deal-description p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+.side-banner {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0px;
+    text-align: center;
+}
+input,
+textarea {
+    outline: none;
+}
+#mobile {
+    transition: right 0.5s ease; /* Add transition property for smooth animation */
+}
+.accordion.active {
+    color: rgb(243 85 37);
+}
